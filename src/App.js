@@ -1,5 +1,6 @@
 import Header from "./Header";
 import Navbar from "./Navbar";
+import StateProps from "./StateProps";
 // const Navbar = () => {
 //   return (
 //     <navbar>
@@ -13,6 +14,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <StateProps />
+
       <h2>Hello World</h2>
     </div>
   );
