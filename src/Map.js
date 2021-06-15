@@ -21,9 +21,7 @@ const makanans = [
 ];
 
 // Reduce
-const totalBayar = makanans.reduce((totalHarga, makanan) => {
-  return totalHarga + makanan.harga;
-}, 0);
+const totalBayar = makanans.reduce((totalHarga, makanan) => totalHarga + makanan.harga, 0);
 
 function Map() {
   return (
