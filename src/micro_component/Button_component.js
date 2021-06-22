@@ -1,6 +1,7 @@
 import React from "react";
 
 //tambah props untuk warna
+//tambah props untuk ukuran
 function Button_component() {
   return (
     <div>
