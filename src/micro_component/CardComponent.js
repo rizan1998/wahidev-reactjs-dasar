@@ -1,0 +1,1 @@
+//buat component untuk card
